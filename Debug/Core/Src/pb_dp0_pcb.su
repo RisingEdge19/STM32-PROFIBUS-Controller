@@ -1,0 +1,14 @@
+pb_dp0_pcb.h:388:22:minTSDR_stop	4	static
+pb_dp0_pcb.h:402:22:WDOG_start	16	static
+pb_dp0_pcb.h:433:22:WDOG_update	4	static
+pb_dp0_pcb.c:12:9:checksum_calc	24	static
+pb_dp0_pcb.c:26:9:checksum_check	16	static
+pb_dp0_pcb.c:48:6:pb_tx_config	16	static
+pb_dp0_pcb.c:63:6:pb_rx_config	8	static
+pb_dp0_pcb.c:80:6:pb_dp0_pcb	8	static
+pb_dp0_pcb.c:356:6:transceiver_init	4	static
+pb_dp0_pcb.c:375:13:wdog_trig_cb	4	static
+pb_dp0_pcb.c:387:13:dev_CDXCH_cb	4	static
+pb_dp0_pcb.c:403:13:data_ready_RW_cb	4	static
+pb_dp0_pcb.c:409:9:pb_dp0_pcb_init	32	static
+pb_dp0_pcb.c:516:6:delay_us	16	static
