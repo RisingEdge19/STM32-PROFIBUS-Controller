@@ -1,0 +1,90 @@
+#Profibus_DP
+GSD_Revision = 1
+Vendor_Name = "STM V GmbH"
+Model_Name = "STM4V slave"
+Revision = "Version 1.0"
+Protocol_Ident = 0				
+Station_Type = 0
+FMS_supp = 0	
+Hardware_Release = "Hardware 1.0"
+Software_Release = "Software 1.0"
+9.6_supp=1					
+19.2_supp=1
+93.75_supp=1
+187.5_supp=1
+500_supp=1
+1.5M_supp=1
+3M_supp=1
+6M_supp=1
+12M_supp=1
+
+MaxTsdr_9.6 = 60				
+MaxTsdr_19.2 = 60
+MaxTsdr_93.75 = 60
+MaxTsdr_187.5 = 60
+MaxTsdr_500 = 100
+MaxTsdr_1.5M = 150
+MaxTsdr_3M = 250
+MaxTsdr_6M = 450
+MaxTsdr_12M = 850
+
+Ident_Number = 0x1133
+
+Redundancy = 0					
+Repeater_Ctrl_Sig = 2				
+24V_Pins = 0					
+Implementation_Type = "STMF4"			
+
+Freeze_Mode_supp = 0				
+Sync_Mode_supp = 0
+Auto_Baud_supp = 0
+Set_Slave_Add_supp = 0
+
+User_Prm_Data_Len = 0							
+
+Min_Slave_Intervall = 1				
+Modular_Station = 1				
+Max_Module = 1					
+Max_Input_Len  = 8				
+Max_Output_len = 8				
+Max_Data_Len  = 16
+
+Max_Diag_Data_Len = 6
+				
+Module = "1 Byte OUT" 0xA0			
+EndModule
+
+Module = "2 Byte OUT" 0xA1			
+EndModule
+
+Module = "4 Byte OUT" 0xA3			
+EndModule
+
+Module = "8 Byte OUT" 0xA7			
+EndModule
+
+Module = "1 Byte IN" 0x90			
+EndModule
+
+Module = "2 Byte IN" 0x91			
+EndModule
+
+Module = "4 Byte IN" 0x93			
+EndModule
+
+Module = "8 Byte IN" 0x97			
+EndModule
+
+Module = "1 Byte IN, 1 Byte OUT" 0xB0			
+EndModule
+
+Module = "2 Byte IN, 2 Byte OUT" 0xB1			
+EndModule
+
+Module = "4 Byte IN, 4 Byte OUT" 0xB3			
+EndModule
+
+Module = "8 Byte IN, 8 Byte OUT" 0xB7			
+EndModule
+
+
